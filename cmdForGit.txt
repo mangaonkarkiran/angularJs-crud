@@ -1,1 +1,10 @@
- cd ./Users/dell/Downloads/crud
+1) cd ./Users/dell/Downloads/crud
+2) git init
+3) git add .
+4) git commit -m "First commit"
+5) git remote add origin https://github.com/mangaonkarkiran/angularJs-crud.git
+6) git push -u origin master
+
+
+Username: mangaonkarkiran
+pass:Ster@123
