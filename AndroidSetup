@@ -1,0 +1,47 @@
+Environment variable
+ANDROID_HOME C:\Users\dell\AppData\Local\Android\Sdk
+ANDROID_SDK_ROOT    C:\Users\dell\AppData\Local\Android\Sdk
+GRADLE_HOME  C:\Gradle\gradle-6.3
+JAVA_HOME C:\Program Files\Java\jdk1.8.0_251
+Path: 
+C:\Users\dell\AppData\Local\Android\Sdk
+C:\Program Files\Java\jdk1.8.0_251\bin
+%ANDROID_SDK_ROOT%\emulator
+%ANDROID_SDK_ROOT%\tools\bin
+%ANDROID_SDK_ROOT%\tools
+%ANDROID_SDK_ROOT%\platform-tools
+%ANDROID_SDK_ROOT%\build-tools
+%JAVA_HOME%\bin
+C:\Gradle\gradle-6.3\bin
+
+C:\Program Files\Java\jdk1.8.0_251\bin
+jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore E:\Project\OnlineExam\exampApp\my-release-key.keystore E:\Project\OnlineExam\exampApp\platforms\android\app\build\outputs\apk\release\app-release-unsigned.apk alias_name
+
+password: 123456789
+
+C:\Users\dell\AppData\Local\Android\Sdk\build-tools\29.0.0
+zipalign -v 4 E:\Project\OnlineExam\exampApp\platforms\android\app\build\outputs\apk\release\app-release-unsigned.apk vedhExam.apk
+
+
+
+
+
+
+https://ionicframework.com/docs/intro/cli
+https://cordova.apache.org/docs/en/7.x/guide/platforms/android/index.html#installing-the-requirements
+https://ionicframework.com/docs/angular/pwa
+
+
+
+ionic serve
+
+npm install -g @ionic/cli cordova-res
+ionic start --start-id nmJEWZs6f
+
+
+ionic cordova build --release android
+ionic cordova run android --device
+Cordova build android --prod --release
+
+https://ionicframework.com/docs/v3/intro/deploying/
+https://ionicframework.com/docs/v3/developer-resources/platform-setup/windows-setup.html
